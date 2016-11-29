@@ -1,0 +1,81 @@
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+/* notification stuff */
+.navbar-nav > .notifications > .dropdown-menu > li .menu > li:hover {
+    background-color: #f4f4f4;
+}
+.notifications ul.menu li h4 {
+    color: #444444;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.notifications ul.menu li h4 small.notification-time-created {
+    color: #999999;
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.notifications ul.menu li h4 span.notification-subject {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 65%;
+}
+.notifications ul.menu li p {
+    color: #888888;
+    font-size: 12px;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.required > label:after {
+    color: #dd4b39;
+    content: '*';
+}
