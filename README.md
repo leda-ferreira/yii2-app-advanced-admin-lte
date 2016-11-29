@@ -1,3 +1,15 @@
+Yii 2 Advanced + Almsaeed Studio AdminLTE
+======================================
+
+This is just the a regular yii2-app-advanced project, but with the [AdminLTE](https://almsaeedstudio.com/preview) admin template, 
+plus a few customizations that I make to all of my projects. 
+
+INSTALLATION
+------------
+```
+php composer.phar create-project --prefer-dist --stability=dev ledat/yii2-app-advanced-admin-lte
+```
+
 Yii 2 Advanced Project Template
 ===============================
 
